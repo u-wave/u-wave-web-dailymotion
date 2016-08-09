@@ -1,0 +1,23 @@
+.src-dailymotion-Player {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 3;
+
+  &--large {
+    pointer-events: none;
+  }
+
+  &--small {
+    margin: auto;
+    width: 640px;
+    height: 360px;
+    pointer-events: none;
+  }
+
+  &--preview {
+    margin: auto;
+    width: 640px;
+    height: 360px;
+  }
+}
