@@ -55,6 +55,7 @@
     "through2": "^2.0.1"
   },
   "scripts": {
+    "prepublish": "npm run build",
     "lint": "eslint src",
     "test": "npm run lint",
     "build": "gulp"

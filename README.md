@@ -21,6 +21,12 @@ import dailymotion from 'u-wave-web-dailymotion';
 uw.source('dailymotion', dailymotion);
 ```
 
+And in your üWave Web Client plugin styles file, do:
+
+```css
+@import "u-wave-web-dailymotion";
+```
+
 ## License
 
 [MIT]
